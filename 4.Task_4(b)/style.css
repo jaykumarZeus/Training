@@ -40,7 +40,7 @@ a {
 .active {
   color: white;
   border-bottom: 3px solid white;
-  padding-bottom: 1.3rem;
+  padding-bottom: 0.9rem;
 }
 .nav-logo {
   display: flex;
@@ -211,9 +211,11 @@ input {
 }
 
 .pages {
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
+  font-weight: bold;
 }
 a {
   text-decoration: none;
@@ -230,6 +232,7 @@ a {
   display: flex;
   justify-content: center;
   background-color: #e0e1e1;
+  padding: 0.5rem;
 }
 .footer p {
   font-size: 12px;
@@ -238,11 +241,17 @@ a {
 }
 .copy {
   border-left: 1px solid #0000001f;
+  font-weight: 600;
+}
+.solve {
+  font-weight: 600;
 }
 .footer-logo {
   padding-right: 0.5rem;
 }
-
+.compnay-name {
+  font-weight: bold;
+}
 @media (max-width: 816px) {
   .navbar-toggler {
     display: block;
