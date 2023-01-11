@@ -36,20 +36,24 @@ body {
 }
 .form-header {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 3px solid black;
+  position: relative;
+  margin-top: 1.5rem;
 }
 h1 {
   font-size: 24px;
 }
 .back-icon-class {
-  float: left;
-  border: 2px solid red;
+  position: absolute;
+  /* border: 2px solid red; */
+}
+.form-header-Dcp {
+  /* border: 2px solid blue; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .back-icon {
   width: 1.8rem;
-  /* padding-top: 1.5rem; */
 }
 input[type="radio"] {
   accent-color: #1f7a54;
