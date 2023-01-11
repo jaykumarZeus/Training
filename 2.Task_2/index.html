@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="/2.Task_2/style.css">
+</head>
+
+<body>
+    <h1>My first web page</h1>
+    <h3>
+        What this is
+    </h3>
+    <p>Welcome to my first webpage. I creared without the assistance editor. Just my little text editor and a keep
+        <span>understanding of html.</span>
+    </p>
+    <h3>
+        Why this is
+    </h3>
+    <ul>
+        <li>To learn HTML</li>
+        <li>List element
+            <ol>
+                <li>Home</li>
+                <li>FAQ</li>
+                <li>Contact</li>
+                <li>About</li>
+            </ol>
+        </li>
+        <li>Here I have created ordered and unordered list</li>
+    </ul>
+    <h3>ZeusLearning.com</h3>
+    <a href="https://www.zeuslearning.com/" target="_blank">This link will open zeuslearning.com in new tab</a>
+    <h3 class="link">On click of following image navigate to Google.com</h3>
+    <div class="google"><a href="https://www.google.co.in/"><img src="/2.Task_2/Img/download.png" alt="Img"></a></div>
+    <h4>Some random table</h4>
+    <table>
+        <tr>
+            <td>Row 1 , cell 1</td>
+            <td>Row 1 , cell 2</td>
+            <td>Row 1 , cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 1 , cell 1</td>
+            <td>Row 1 , cell 2</td>
+            <td>Row 1 , cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 1 , cell 1</td>
+            <td>Row 1 , cell 2</td>
+            <td>Row 1 , cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 1 , cell 1</td>
+            <td>Row 1 , cell 2</td>
+            <td>Row 1 , cell 3</td>
+        </tr>
+    </table>
+    <h4>Some random form</h4>
+    <p><span>Note: </span>It looks the part, but won't do a anything.
+    </p>
+    <form onsubmit="return validationForm()">
+        <label for="name">Name:</label><br>
+        <input type="text" name="name" id="name" placeholder="Your name"><br>
+        <label for="comments">Comments:</label><br>
+        <textarea name="cmt" id="comments" cols="30" rows="10" placeholder="Your comments"></textarea><br>
+        <label for="gender">Are you:</label><br>
+        <input type="radio" value="male" name="gender" id="male">
+        <label for="male">Male</label> <br>
+        <input type="radio" value="female" name="gender" id="female">
+        <label for="female">Female</label><br>
+        <input type="submit" value="Submit Query" class="btn">
+    </form>
+    <script src="/2.Task_2/index.js"></script>
+</body>
+
+</html>

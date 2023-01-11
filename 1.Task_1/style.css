@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-display:optional;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.tweet{
+    border: 2px solid black;
+    width: 457px;
+    height: 138px;
+    margin: 4px;
+} 
+.userImg{
+    width: 130px;
+    float: left;
+    margin-right: 14px;
+}
+.userName{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+.userMsg{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.logo{
+    font-size: 20px;
+    color: #858991;
+}
+.container{
+    display: flex;
+}
+.counter{
+    margin-left: 14px;
+    margin-right: 24px;
+    font-size: 15px;
+    font-weight: medium;
+    color:#858991;
+}
+/* .cont{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+} */
